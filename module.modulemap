@@ -1,5 +1,5 @@
 module Clibgit [system] {
-  header "/usr/local/include/git.h"
+  header "/usr/local/include/git2.h"
   link "git2"
   export *
 }
