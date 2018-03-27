@@ -7,7 +7,7 @@ let package = Package(
     name: "Clibgit",
     pkgConfig: "libgit2",
 	providers: [
-		.Brew("libgit2"),
-		.Apt("libgit2-dev")
+		.brew(["libgit2"]),
+		.apt(["libgit2-dev"])
 	]
 )
